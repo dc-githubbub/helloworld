@@ -58,7 +58,7 @@ public class MainActivity extends Activity {
 		String locText = locView.getText().toString();
 		//intent.putExtra(EXTRA_MESSAGE, message);
 		//startActivity(intent);
-      Toast.makeText(this, "sendMessage v3", Toast.LENGTH_LONG).show();
+      Toast.makeText(this, "sendMessage v4", Toast.LENGTH_LONG).show();
 //		new LocSender().execute(locText);
 	}
 	
