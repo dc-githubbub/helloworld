@@ -24,6 +24,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 	
@@ -57,7 +58,8 @@ public class MainActivity extends Activity {
 		String locText = locView.getText().toString();
 		//intent.putExtra(EXTRA_MESSAGE, message);
 		//startActivity(intent);
-		new LocSender().execute(locText);
+      Toast.makeText(this, "sendMessage", Toast.LENGTH_LONG).show();
+//		new LocSender().execute(locText);
 	}
 	
 	//public final static String EXTRA_MESSAGE = "com.example.helloworld.MESSAGE";
